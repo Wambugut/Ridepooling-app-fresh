@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "nativewind/*": ["./node_modules/nativewind/*"]
+    },
+    "skipLibCheck": true
+  },
+  "extends": "expo/tsconfig.base"
+}

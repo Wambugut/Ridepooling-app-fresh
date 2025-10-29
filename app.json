@@ -1,0 +1,38 @@
+{
+  "name": "TUK Ridepool",
+  "slug": "tuk-ridepool",
+  "scheme": "tuk-ridepool",
+  "splash": {
+    "image": "./assets/images/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "android": {
+    "package": "com.kimoney.ridepoolingappfresh",
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyApgWyCqHor__muC8HLkSF9ww6QyMPtCUc"
+      }
+    }
+  },
+  "ios": {
+    "bundleIdentifier": "com.kimoney.ridepoolingappfresh",
+    "config": {
+      "googleMapsApiKey": "AIzaSyApgWyCqHor__muC8HLkSF9ww6QyMPtCUc"
+    },
+    "infoPlist": {
+      "NSPhotoLibraryUsageDescription": "Allow access to your photos to upload a profile picture."
+    }
+  },
+  "plugins": [
+    "expo-router",
+    "expo-font",
+    "expo-web-browser"
+  ],
+  "extra": {
+    "router": {},
+    "eas": {
+      "projectId": "f6e9f17f-504d-4f09-ba29-7f46b03dd529"
+    }
+  }
+}
